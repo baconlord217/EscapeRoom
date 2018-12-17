@@ -1,0 +1,11 @@
+public class InvalidWord extends Exception 
+{
+
+  public InvalidWordException(String message)
+  {
+     super(message);
+  }
+
+}
+//In code:
+//throw new InvalidWordException("I can not understand you if you do not put a valid word. Please follow directions and input valid words.....thank you");
